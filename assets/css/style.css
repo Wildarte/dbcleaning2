@@ -1172,6 +1172,13 @@ nav.menu ul{
     border-radius: 10px;
 }
 
+.title-special-height::before{
+    height: 46px;
+}
+.title-special-height::after{
+    height: 46px;
+}
+
 @media(max-width: 1400px){
     .hero{
         height: 600px;
@@ -1388,6 +1395,12 @@ nav.menu ul{
     }
     .list-default li{
         font-size: 18px;
+    }
+    .head_page_def{
+        flex-wrap: wrap;
+    }
+    .head_page_def .f-70 p{
+        padding: 10px;
     }
 }
 
