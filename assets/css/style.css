@@ -1179,6 +1179,27 @@ nav.menu ul{
     height: 46px;
 }
 
+.cards_industries .card img{
+    width: 100%;
+}
+.simple_min_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    box-shadow: 2px 2px 10px rgba(46, 105, 255, .3);
+    border-radius: 5px;
+    margin: 10px;
+}
+.simple_min_card h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--color-gray5);
+}
+.simple_min_card img{
+    width: 20px;
+}
+
 @media(max-width: 1400px){
     .hero{
         height: 600px;
